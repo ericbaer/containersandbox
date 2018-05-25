@@ -1,0 +1,13 @@
+package containersandbox
+
+modules = Data.FiniteVect,
+    Data.SizedVect,
+    Data.RelVect,
+    Data.RoseTree,
+    Data.LabelledTree,
+    Data.Some,
+    Data.Either.Variadic,
+    Data.Function.Variadic
+
+main = Main
+pkgs = contrib, eqconv
